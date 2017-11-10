@@ -1,0 +1,19 @@
+{
+  "name": "zwangger",
+  "version": "0.0.1",
+  "description": "Extends OpenApi spec adding x-required-all-except: [] ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nicoabie",
+  "license": "ISC",
+  "dependencies": {
+    "babel-generator": "^6.26.0",
+    "babel-traverse": "^6.26.0",
+    "babel-types": "^6.26.0",
+    "babylon": "^6.18.0",
+    "ramda": "^0.25.0",
+    "yamljs": "^0.3.0"
+  }
+}

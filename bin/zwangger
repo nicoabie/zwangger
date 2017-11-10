@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+const zwangger = require('../index');
+
+const args = process.argv.slice(2);
+
+if (args.length !== 2){
+  console.error('Please pass in/out files');
+  process.exit(2);
+} else {
+  zwangger.apply(null, args);
+}
+
